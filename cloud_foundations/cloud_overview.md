@@ -18,7 +18,7 @@ cloud also has an extra optional layer between these two groups, the **Managemen
 
 - Workload ---> Software as a Service (SaaS)       hosting g-suite, microsoft 365
 - Services ---> Platform as a Service (PaaS)       hosting web apps and db
-- Virtual Machine                   ---> Infrastructure as a Service (IaaS) hosting a full vm
+- Virtual Machine ---> Infrastructure as a Service (IaaS) hosting a full vm
 
 The line between them is blurred and not solid. \
 The lower we go, the lower control we got. And the higher we go, the more ease of Administration we got.
@@ -42,7 +42,7 @@ Launched in 2006, over 190 countries, **over 175 products and services**, 18 glo
 
 Publicly since 2010, 31 geographies, 57 regions, over 300k customers and **over 169 services**
 
-#### Google Cloud 
+#### GCP (Google Cloud Platform)
 
 Launched in 2010, **over 90 services**, not sure how many users
 
@@ -80,7 +80,7 @@ Cloud is better because the client is being abstracted of the need to add more h
 #### Consumption-Based Spending
 - Capacity-based spending
     - On-premises resources
-    - Some cloud resources - virtual mahcines
+    - Some cloud resources - virtual machines
 - Consumption-based spending
     - Pay only for what is used
     - Functions. Lambda
@@ -102,3 +102,31 @@ Cloud is better because the client is being abstracted of the need to add more h
 
 
 # [+] Cloud Managment
+
+## Managing Cloud Resources
+
+#### Cloud Management Tools
+- Web-based
+- Command line (Linux-like(CLI) & Powershell-like)
+- Rest API 
+
+#### Web-based Cloud Management
+- AWS (https://console.aws.amazon.com)
+- Azure (https://portal.azure.com)
+- GCP (https://console.cloud.google.com)
+
+#### Command line Cloud Management
+- AWS
+    - AWS CLI (https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
+    - AWS Powershell (https://docs.aws.amazon.com/powershell/latest/userguide/pstools-getting-set-up.html)
+- Azure
+    - Azure CLI (https://docs.microsoft.com/en-us/cli/azure/install/install-azure-cli) *
+    - Azure Powershell ```Install-Module -Name Az -AllowClobber -Scope CurrentUser```
+- Google Cloud
+    - Google Cloud SDK
+    - Component Management (kubectl)
+    - Cloud tools for powershell (https://cloud.google.com/tools/powershell/docs/quickstart)
+- Cloud Shell  
+
+#### Cloud API
+Nothing here
