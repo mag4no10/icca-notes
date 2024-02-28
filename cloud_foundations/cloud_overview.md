@@ -114,7 +114,7 @@ Cloud is better because the client is being abstracted of the need to add more h
 - AWS (https://console.aws.amazon.com)
 - Azure (https://portal.azure.com)
 - GCP (https://console.cloud.google.com)
-
+º
 #### Command line Cloud Management
 - AWS
     - AWS CLI (https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
@@ -128,5 +128,29 @@ Cloud is better because the client is being abstracted of the need to add more h
     - Cloud tools for powershell (https://cloud.google.com/tools/powershell/docs/quickstart)
 - Cloud Shell  
 
-#### Cloud API
-Nothing here
+## Cloud Cost Management
+
+#### Cloud Pricing Models
+- Capacity (easier and you pay a fixed price)
+- Consumption (harder, you pay what you use)
+Beware of data transfer and transactional costs
+#### Cloud Billing
+- Billing Entity
+- Billing Cycle
+- Billing Management
+- Billing Rate
+- Marketplace Billing 
+#### Cost Monitoring
+- Budgets
+- Alerts
+- Monitoring Tools
+- 3rd Party
+#### Cost Optimization
+- Agents
+    - Azure Advisors
+    - AWS costs anomaly detection
+    - Google recommender
+- Sizing
+- Autoscale
+- "Serverless" Options
+- Long-term commitments
